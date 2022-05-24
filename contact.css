@@ -22,12 +22,15 @@ h1   {
               -webkit-text-fill-color: transparent;
              font-size: 42px !important;}
     
-.wrapper   {max-width: 90%;
-                padding: 0% 3% !important;
-                min-height: 466px;
-                 border: solid 1px rgb(0, 0, 0);
-                 border-radius: 40px;
-                 margin-top: 40%;}
+.wrapper   {
+    max-width: 90%;
+    padding: 0px 12px !important;
+    min-height: 466px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 40px;
+    position: relative;
+    transform: translateY(83px);
+   }
 
 .hero {text-align: center;
             height: 176px;

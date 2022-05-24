@@ -24,7 +24,7 @@ h1   {
     
 .wrapper   {max-width: 90%;
                 padding: 0% 3% !important;
-                height: 466px;
+                min-height: 466px;
                  border: solid 1px rgb(0, 0, 0);
                  border-radius: 40px;
                  margin-top: 40%;}

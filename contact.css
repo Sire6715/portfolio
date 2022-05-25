@@ -4,42 +4,49 @@
   box-sizing: border-box;}
 
 
-html {scroll-behavior: smooth;
-  
+html {
+    scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     -moz-osx-font-smoothing: grayscale;}
 
-body {    overflow-x: hidden;
-              background-image: radial-gradient(#E8F9FD, #fff, #79DAE8,);
+body {  
+     overflow-x: hidden;
+      background-image: url(bg-pattern-bottom.svg);
+      background-position-y: initial;
+      background-position-y: initial;
+      background-size: 2000px;
+      background-repeat: no-repeat;
            }
 
-.container { padding: 0% 3% 5% 10% !important;}
+.container { 
+    padding: 0% 3% 5% 10% !important;}
 
-h1   {  
-              background: -webkit-linear-gradient(#85586F, #3b1227);
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-             font-size: 42px !important;}
+
+h1   { 
+    background: -webkit-linear-gradient(#315cc6, #4c2812);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px !important;
+    font-weight: 700 !important;}
     
 .wrapper   {
     background-color: white;
-    width: 340px !important;
+    width: 88% !important;
     max-width: 90%;
     padding: 0px 12px !important;
-    height: 491px;
-    min-height: 100%;
-    border: solid 1px rgb(0, 0, 0);
-    border-radius: 40px;
+    height: 55% !important;
+    border-radius: 15px;
     position: relative;
     transform: translateY(83px);
    }
 
-.hero {text-align: center;
-            height: 176px;
-            background-image: url(pattern.png);
-            background-color: #2155CD;
-            border-radius: 40px 40px 0px 0px;}
+.hero {
+    text-align: center;
+    height: 176px;
+    background-image: url(pattern.png);
+    background-color: #2155CD;
+    border-radius: 15px 15px 0px 0px;}
 
 
 .hero>a {
@@ -47,13 +54,12 @@ h1   {
     font-size: 29px;;}
 
 
-           
-    .hero>p {
-        margin-top: 0;
-        color: white;
-        margin-bottom: 0rem;
-        font-size: 25px;
-        font-weight: 700;}
+ .hero>p {
+    margin-top: 0;
+     color: white;
+     margin-bottom: 0rem;
+      font-size: 25px;
+      font-weight: 700;}
     
 .hero>p::after {content: "";
   display: block;
@@ -61,7 +67,7 @@ h1   {
   width: 20%;
    padding-top: 0px;
    border-bottom: 4px solid #fff;
- border-radius: 30px;
+border-radius: 30px;
                        } 
 
                        

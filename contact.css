@@ -29,13 +29,27 @@ h1   {
     -webkit-text-fill-color: transparent;
     font-size: 42px !important;
     font-weight: 700 !important;}
+
+
+
+.nav-item {
+        display: list-item;
+        color: black;
+        display: flex;
+        padding-left: 19%;}
     
+    
+.nav-item>a {
+        font-weight: 600;
+        text-decoration: none;
+        color: black;}
+
 .wrapper   {
     background-color: white;
     width: 88% !important;
     max-width: 90%;
     padding: 0px 12px !important;
-    height: 500px !important;
+    height: 75% !important;
     border-radius: 15px;
     position: relative;
     transform: translateY(83px);
@@ -44,7 +58,7 @@ h1   {
 .hero {
     text-align: center;
     height: 176px;
-    background-image: url(pattern.png);
+    background-image: url(image/Pattern.png);
     background-color: #2155CD;
     border-radius: 15px 15px 0px 0px;}
 
@@ -113,3 +127,5 @@ margin-top: 15% !important;}
 }
 
 .icons>a { font-size: 38px;}
+
+br {display: none;}

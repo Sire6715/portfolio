@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,27 +15,38 @@
 </head>
 <body style="background-color: #E8F9FD;"  >
 <!-- ===== nav ===== -->
-<div class="container-fluid" >
-     <div class="row">
-         <h1>Jason Victor</h1>
-     </div>
-</div>
+<nav class="navbar">
+    <div class="container-fluid">
+      <h1 class="navbar-brand navbar-expand-md">jason victor</h1>
+      <div class="d-flex">
+       <p class="nav-item"><a href="#">Home</a></p>
+       <p class="nav-item"><a href="#">Work</a></p>
+       <p  class="nav-item"><a href="#">Contacts</a></p>
+      </div>
+    </div>
+  </nav>
 <!-- ===== wrapper ===== -->
 <div class="container-fluid wrapper">
     <div class="row">
 <!-- ===== hero1 ===== -->
          <div class="hero">
             <a href="#"><i class="bi bi-x-circle"></i></a>
-            <p>Get in Touch</p>
+            <p>Get in<br>Touch.</p>
             <img src="image/avatar.jpg" class="img.fluid" id="avatar">
          </div>
 <!-- =====hero1===== -->
-        <div class="hero1 col-12 col-md-12 col-lg-6 col-xxl-6">
-               <p class="p1">Email</p>
-               <p id="email">uchepibe@gmail.com</p>
-               <button class="button btn" ><a href="email">send message</a></button>
-               <p class="p1">or</p>
-        </div>
+ <div class="hero1 col-12 col-md-12 col-lg-6 col-xxl-6">
+     <div class="mobile">
+        <p class="p1">Email:</p>
+        <p id="email">uchepibe@gmail.com</p>
+    </div>
+         <button class="button btn" ><a href="email">send message</a></button>
+        <p class="p1" id="or">or</p>
+    </div>
+<!-- =====hero1img==== -->   
+<div class="img-fluid  col-12 col-md-12 col-lg-6 col-xxl-6">
+  <img class="img1" src="image/uiux.jpg">
+</div>
 <!-- =====hero1===== -->
          <div class="icons d-flex">
              <a href="#" style="color: rgb(148, 22, 51);"><i class="bi bi-instagram"></i></a>

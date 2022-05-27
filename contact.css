@@ -58,7 +58,7 @@ h1   {
 .hero {
     text-align: center;
     height: 176px;
-    background-image: url(image/Pattern.png);
+    background-image: url(pattern.png);
     background-color: #2155CD;
     border-radius: 15px 15px 0px 0px;}
 

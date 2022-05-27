@@ -69,6 +69,8 @@
     .img-fluid>.img1 {
         height: 100%;
         width: 94%;
+        padding: 8%;
+        border-radius:40px;
         transform: translateY(-33px);
     }
     }

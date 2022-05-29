@@ -6,16 +6,15 @@
 
     }
 
-
     @media only  screen and (min-width: 800px){
     
     .body {
         background-color: #2155CD;
       }
-    
+
     .wrapper { 
         background-color: #fff;
-         background-image: url(image/pattern.png);}
+         background-image: url(../image/Pattern.png);}
     
     .hero {
         background-color: #fff;
@@ -70,7 +69,7 @@
         height: 100%;
         width: 94%;
         padding: 8%;
-        border-radius:40px;
+        border-radius: 46px;
         transform: translateY(-33px);
     }
     }

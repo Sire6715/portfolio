@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Quicksand:wght@300;400&family=Shadows+Into+Light&display=swap');
 *{font-family: 'Fredoka', sans-serif;
     font-family: 'Quicksand', sans-serif;
   box-sizing: border-box;}
@@ -12,7 +12,7 @@ html {
 
 body {  
      overflow-x: hidden;
-      background-image: url(bg-pattern-bottom.svg);
+      background-image: url(../image/bg-pattern-bottom.svg);
       background-position-y: initial;
       background-position-y: initial;
       background-size: 2000px;
@@ -58,7 +58,7 @@ h1   {
 .hero {
     text-align: center;
     height: 176px;
-    background-image: url(pattern.png);
+    background-image: url(../image/Pattern.png);
     background-color: #2155CD;
     border-radius: 15px 15px 0px 0px;}
 
@@ -75,13 +75,14 @@ h1   {
       font-size: 25px;
       font-weight: 700;}
     
-.hero>p::after {content: "";
-  display: block;
-  margin: 0 auto;
-  width: 20%;
-   padding-top: 0px;
-   border-bottom: 4px solid #fff;
-border-radius: 30px;
+.hero>p::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+     width: 20%;
+    padding-top: 0px;
+    border-bottom: 4px solid #fff;
+    border-radius: 30px;
                        } 
 
                        

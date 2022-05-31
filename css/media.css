@@ -12,6 +12,12 @@
         background-color: #2155CD;
       }
 
+      .navbar {
+        padding: 10em;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+       }     
+       
     .wrapper { 
         background-color: #fff;
          background-image: url(../image/Pattern.png);}

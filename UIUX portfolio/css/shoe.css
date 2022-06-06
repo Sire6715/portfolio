@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Quicksand:wght@300;400&family=Shadows+Into+Light&display=swap');
+*{
+    font-family: 'Fredoka', sans-serif;
+    box-sizing: border-box;}
+
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -moz-osx-font-smoothing: grayscale;}
+
+body {  
+     overflow-x: hidden;
+      background-image: url(../image/bg-pattern-bottom.svg);
+      background-position-y: initial;
+      background-size: 2000px;
+      background-repeat: no-repeat;
+      padding: 2em!important;
+      font-weight: 500;
+           }
+
+.container-fluid {
+    padding: 0rem !important;
+}
+
+.desk, .nav-item {
+    display: none;
+}
+
+.index i {
+    color: #000;
+    font-size: 30px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;}
+
+.mob {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+.victor { 
+    background: -webkit-linear-gradient(#e67f00, #ea3b00);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+      }
+
+.shoe-locker {
+    width: 50%;
+    height: 59%;
+    margin: 3em;;
+}
+
+.first-one .row p span {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.first-two .row p span {
+    line-height: 3em;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.first-two::before {
+    content: '';
+    border-left: 5px solid #f58150;
+    position: absolute;
+    height: 426px;
+    transform: translate(-16px, 56px);
+
+}
+
+.img2 {
+    width: 80%;
+    margin: 2em;
+}
+
+.img2 img {
+    width: 54%;
+    border-radius: 25px;
+    box-shadow: 15px 9px 57px #625c5c;
+}
+
+.sec-one p span {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.sec-one {
+ margin: 2em 0em;
+}
+
+.sec-two{
+    margin: 2em 0em;
+}
+
+.img-id img {
+    border-radius: 50%;
+    transform: scaleY(1.5);
+}
+
+.first-id, .second-id {
+    position: relative;
+    right: 5em;
+    line-height: 1.9em;
+}
+
+.first-id p,.second-id p {
+    padding-left: 1em;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.details {
+    list-style: none;
+}
+
+.journey {
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 3em;
+}
+
+.journey-img  {
+    width: 100%;
+}
+
+.architecture, .wireframes {
+    width: 100%;
+}
+
+.catalogue {
+    width: 100%;
+    margin: 2em 0em;
+    border-radius: 20px;
+}

@@ -1,0 +1,141 @@
+@media only  screen and (max-width: 400px){
+:is(.mob, .mob1, .mob2) {
+    display: none;
+}
+}
+    @media only  screen and (min-width: 600px){
+
+        :is(.mob, .mob1, .mob2) {
+            display: block;
+        }
+    
+   .navbar {
+    padding: 10em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+   }     
+
+   
+.work {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 7%;
+ }
+
+.work::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 8%;
+    height: 11%;
+}
+
+.work::after {
+    bottom: 0;
+    background: linear-gradient(to right, rgb(106, 57, 206), rgb(163, 65, 48));
+    border-radius: 30px;
+}
+
+    
+    .index {
+        display: none;}
+
+    .nav-item {
+        display: flex !important;
+        color: black;
+        display: flex;
+        padding-left: 19%;
+    }
+
+
+.nav-item>a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;}
+
+ .desk {
+        display: none;
+    }
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+:is(.grid, .grid1, .grid2 ){
+    max-width: 322px !important;
+    border-radius: 43px;
+    margin: 37px;
+    text-align: center;
+}
+
+.desk-img {
+    position: inherit;
+    width: 64%;
+    margin-top: 6em;
+    opacity: 1;
+}
+
+.grid {
+    background-color: hsla(223, 60%, 48%, 0.333);
+}
+
+.grid:hover {
+    background-color: hsla(223, 60%, 48%, 0.905);
+    opacity: 0.5;
+}
+
+
+.grid1 {
+    background-color: hsla(246, 70%, 47%, 0.33);
+}
+
+.grid1:hover {
+    background-color: hsl(246, 70%, 47%);
+    opacity: 0.5;
+}
+
+.grid2 {
+    background-color: hsla(14, 70%, 47%, 0.319);
+}
+
+
+.grid2:hover {
+    background-color: hsl(14, 70%, 47%);
+    opacity: 0.5;
+}
+
+.link {
+    list-style-type: none;
+    text-decoration: none !important;
+}
+
+
+
+.item {
+    position: relative;
+    bottom: 94px;
+    text-decoration: none;
+    color: white;
+}
+
+.link>li:first-child {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.link>li:last-child {
+    font-weight: 600;
+}
+
+/*
+.item {
+    display:none;
+  }
+  
+  .mob:hover > .item {
+    display: flow-root;
+  }
+    }  
+

@@ -1,0 +1,83 @@
+
+
+@media only  screen and (max-width: 800px){
+.img-fluid>.img1 {
+            display: none;}
+
+    }
+
+    @media only  screen and (min-width: 800px){
+    
+    .body {
+        background-color: #2155CD;
+      }
+
+      .navbar {
+        padding: 10em;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+       }     
+       
+    .wrapper { 
+        background-color: #fff;
+         background-image: url(../image/Pattern.png);}
+    
+    .hero {
+        background-color: #fff;
+         font-size: 30px;  
+         padding-left: 50px;    }
+    
+    .hero1 {
+        text-align: initial;
+        margin-top: 15% !important;
+        padding-left: 50px !important;}
+    
+    
+    .hero>p {
+        margin-top: 0;
+        color: rgb(3, 3, 3);
+        margin-bottom: 0rem;
+        font-size: 76px;
+        font-weight: 1000;
+        text-align: initial;
+        transform: translate(36px, -18px);
+    }
+
+    br {
+        display: list-item;}
+
+    
+    #avatar {
+        display: none;}
+    
+    .mobile {
+        display: flex;
+    }
+    
+    #email {
+        font-weight: 900;
+    }
+    
+    .button {
+        text-align: left;
+        font-size: 20px !important;
+        border-radius: 45px !important;
+        padding: 1rem !important;}
+    
+    #or {
+        display: none;}
+    
+    .icons {
+       margin-top: 4% !important;
+      display: flex!important;
+      justify-content: space-evenly;
+    }
+    
+    .img-fluid>.img1 {
+        height: 100%;
+        width: 94%;
+        padding: 8%;
+        border-radius: 46px;
+        transform: translateY(-33px);
+    }
+    }
